@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #111;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: #fff;
+    font-size: 26px;
+}
+
+.logo span {
+    color: #4db5ff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    color: #4db5ff;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+    background: linear-gradient(to right, #111, #222);
+    color: #fff;
+}
+
+.hero h1 span {
+    color: #4db5ff;
+}
+
+.hero p {
+    margin: 20px 0;
+    max-width: 500px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #4db5ff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+/* SECTIONS */
+.section {
+    padding: 70px 8%;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section.dark {
+    background: #111;
+    color: #fff;
+}
+
+/* SKILLS */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.skills-grid div {
+    background: #1f1f1f;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* PROJECTS */
+.project-card, .exp-card, .edu-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.dark .project-card,
+.dark .exp-card {
+    background: #1f1f1f;
+}
+
+.project-card span,
+.exp-card span,
+.edu-card span {
+    font-size: 14px;
+    color: #4db5ff;
+}
+
+/* EXPERIENCE */
+.exp-card ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #000;
+    color: #aaa;
+}
